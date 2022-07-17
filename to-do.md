@@ -13,6 +13,15 @@
     - Start the server to check "python manage.py runserver"
 * Create app modules
 * Learn about Admin portal
+    - Run the cmd: "python manage.py migrate"
+    - To create new user run cmd: "python manage.py createsuperuser" and enter details (user:'vaibhav' and password:'Qwert@123')
 * Learn templates
 * Add DB support
 * Work with API
+
+
+> Note: Got error on updating spuer user on admin portal solution is to mirgrate/update.
+Run the following CMD:
+- python manage.py migrate
+- python manage.py makemigrations
+- python manage.py migrate
